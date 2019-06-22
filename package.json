@@ -1,6 +1,6 @@
 {
   "name": "generator-mycli",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "cli generator",
   "homepage": "https://github.com/tageecc/generator-mycli",
   "repository": "https://github.com/tageecc/generator-mycli.git",
@@ -8,9 +8,6 @@
     "name": "塔歌",
     "email": "tageecc@gmail.com"
   },
-  "files": [
-    "generators"
-  ],
   "main": "generators/index.js",
   "keywords": [
     "cli",

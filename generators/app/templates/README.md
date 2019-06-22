@@ -24,9 +24,32 @@ npm i -g <%= name %>
 
 ## 发布
 
+1. 去`https://www.npmjs.com/`注册账号，并使用在本地shell`npm login`登陆npm账号
+```bash
+npm login
+```
+
+2. 使用`publish`发布
+
 ```bash
 npm publish
 ```
+
+3. 关于ignore
+
+- .npmignore
+
+默认的，如果项目根目录中没有`.npmignore`，则每次发包的时候会自动剔除掉`.gitignore`指定的目录
+如果你在项目中增加了`.npmignore`，那么其会完全替代掉`.gitignore`的作用，只会剔除掉`.npmignore`指定的目录
+
+- files字段
+
+通过`package.json`中的`files`字段，可以设置发布文件的白名单，当`files`的指定的目录和`ignore`指定的目录冲突时，优先选择`files`的目录。
+例如，在`files`和`ignore`同时声明了`readme`文件，`readme`文件依然会被发布到`npmjs`
+
+- 优先级
+
+files>.npmignore>.gitignore
 
 ## util 使用
 
