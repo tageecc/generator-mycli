@@ -1,6 +1,6 @@
 {
   "name": "generator-mycli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "cli generator",
   "homepage": "https://github.com/tageecc/generator-mycli",
   "repository": "https://github.com/tageecc/generator-mycli.git",
