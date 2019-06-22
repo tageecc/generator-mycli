@@ -1,13 +1,12 @@
 {
   "name": "generator-mycli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cli generator",
-  "homepage": "",
-  "repository": "",
+  "homepage": "https://github.com/tageecc/generator-mycli",
+  "repository": "https://github.com/tageecc/generator-mycli.git",
   "author": {
     "name": "塔歌",
-    "email": "tageecc@gmail.com",
-    "url": ""
+    "email": "tageecc@gmail.com"
   },
   "files": [
     "generators"
