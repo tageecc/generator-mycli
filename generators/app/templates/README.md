@@ -29,11 +29,10 @@ npm i -g <%= name %>
 npm login
 ```
 
-2. 使用`publish`发布
+2. 发包
 
-```bash
-npm publish
-```
+最简单的方式是使用`npm publish`进行发布。但是规范起见，每次发布需要先发布beat包，等线上确认测试通过后，再切换到正式包，
+详情见：https://yuque.antfin-inc.com/docs/share/11f81df9-cf42-428b-bd00-05fb33f76505
 
 3. 关于ignore
 
